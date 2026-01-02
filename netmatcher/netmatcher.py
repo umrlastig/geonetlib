@@ -73,6 +73,9 @@ def importData(param, is1, cptNode):
     #      reseau.rendPlanaire(0.1);
     #      reseau.filtreDoublons(0.1);
 
+    print ('          nb edges = ', network.getNumberOfEdges())
+    print ('          nb nodes = ', network.getNumberOfNodes())
+
     return network, cptNode
 
 

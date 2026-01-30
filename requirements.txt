@@ -1,4 +1,5 @@
 tracklib
+fiona
 pytest
 pytest-runner
 coverage

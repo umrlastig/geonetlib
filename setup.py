@@ -5,7 +5,8 @@ from setuptools import setup
 current_path = os.path.abspath(os.path.dirname(__file__))
 
 requirements = (
-        "tracklib"
+        "tracklib",
+        "fiona"
 )
 
 dev_requirements = (

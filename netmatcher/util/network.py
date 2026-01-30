@@ -224,10 +224,10 @@ def deleteSmallEdge(network, threshold):
                 network.NBGR_NODES[nf.id].remove(ni.id)
                 network.NBGR_EDGES[nf.id].remove(edge.id)
 
-                if ni.id in network.getIndexNodes():
-                    network.removeNode(ni)
-                else:
-                    print ('------', ni.id)
+                #if ni.id in network.getIndexNodes():
+                network.removeNode(ni)
+                #else:
+                #    print ('------', ni.id)
 
             if len(network.getIncidentEdges(nf.id)) <= 1:
                 # print ('suppression à faire ', edge.id, nf.id)

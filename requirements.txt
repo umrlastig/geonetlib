@@ -1,4 +1,7 @@
 tracklib
+pytest
+pytest-runner
+coverage
 
 
 

@@ -23,8 +23,8 @@ setup (
     url="https://github.com/umrlastig/netmatcher",
     author="Marie-Dominique Van Damme",
     author_email="todo",
-    keywords=['NetMatcher', 'Python library', 'Map-matching', 'Network'],
-    license="Cecill-C",
+    keywords=['NetMatcher', 'Python library', 'Network matching', 'Network', 'Topology'],
+    license="GPL-3.0",
     python_requires=">=3.10",
     classifiers=[
         "Development Status :: 4 - Beta",
